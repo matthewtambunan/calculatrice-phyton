@@ -1,39 +1,17 @@
-# calculatrice-phyton
-Une calculatrice simple développée en Python pour apprendre les bases de la programmation
-print("=== CALCULATRICE DE MATTHEW ===")
+#,Calculatrice de Matthew
 
-while True:
-    print("\n1. Addition (+)")
-    print("2. Soustraction (-)")
-    print("3. Multiplication (*)")
-    print("4. Division (/)")
-    print("5. Quitter")
+Une calculatrice simple développée en Python.
 
-    choix = input("Choisissez une opération (1-5) : ")
+## Fonctionnalités
 
-    if choix == "5":
-        print("Merci d'avoir utilisé la calculatrice !")
-        break
+- Addition
 
-    if choix not in ["1", "2", "3", "4"]:
-        print("Choix invalide. Réessayez.")
-        continue
+- Soustraction
 
-    nombre1 = float(input("Entrez le premier nombre : "))
-    nombre2 = float(input("Entrez le deuxième nombre : "))
+- Multiplication
 
-    if choix == "1":
-        resultat = nombre1 + nombre2
-    elif choix == "2":
-        resultat = nombre1 - nombre2
-    elif choix == "3":
-        resultat = nombre1 * nombre2
-    elif choix == "4":
-        if nombre2 == 0:
-            print("Erreur : division par zéro impossible.")
-            continue
-        resultat = nombre1 / nombre2
+- Division
 
-    print("Résultat :", resultat)
+Plusieurs calculs à la suite
 
-print("Programme terminé.")
+## Technologie Python
